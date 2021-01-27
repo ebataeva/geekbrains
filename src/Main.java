@@ -13,7 +13,7 @@ public class Main {
         }
         System.out.println("\nСотрудники, которые старше 40 \n");
 
-        for (Employee e: employees) {
+        for (Employee e: employees) {   // №5 вывод сотрудников старше 40
             if(e.age>40) e.info();
         }
 
