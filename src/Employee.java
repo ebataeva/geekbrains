@@ -36,8 +36,12 @@ public class Employee {
         this.age = age;
 
     }
+
+    public Employee() {
+    }
+
     public  void info(){
-        System.out.printf("фио = %s, должность = %s, электронная почта = %s,\nтелефон = %s, \nвозраст = %d, зарплата = %d ",  this.fio, this.position, this.email, this.phone, this.age, this.salary);
+        System.out.printf("фио = %s, должность = %s, электронная почта = %s,\nтелефон = %s, \nвозраст = %d, зарплата = %d \n",  this.fio, this.position, this.email, this.phone, this.age, this.salary);
     }
     public String randArray(String[] array) {
 
