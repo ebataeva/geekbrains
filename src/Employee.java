@@ -56,7 +56,7 @@ public class Employee {
     }
 
     public String generateFio() {
-        String name = new String(randArray(NAMES));
+        String name = new String(randArray(LASTNAMES)+" "+randArray(NAMES)+ " "+ randArray(NAMES)+"ich");
         return name;
     }
 
