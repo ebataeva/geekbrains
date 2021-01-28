@@ -85,7 +85,7 @@ public class Employee {
     }
 
     public void setFio(String fio) {
-        this.fio = generateFio();
+        this.fio = fio;
     }
 
     public String getPosition() {
